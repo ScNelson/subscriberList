@@ -17,7 +17,7 @@ body{
 
 .welcomeSubHead {
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 25px;
 }
 
@@ -35,4 +35,25 @@ body{
     display: block;
     margin: 30px auto;
     width: 50%;
+}
+
+.userInfo {
+    display: block;
+    margin: 10px auto;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.subscriberInfo{
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.subscribeLine{
+    display: inline-block;
+    text-align: center;
+    margin: 10px auto;
+    font-family: sans-serif;
+    font-size: 16px;
 }
