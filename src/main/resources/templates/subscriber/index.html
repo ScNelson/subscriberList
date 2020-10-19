@@ -7,11 +7,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Subscriber List</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link th:href="@{styles.css}" rel="stylesheet">
 </head>
 
 <body>
+    <!-- ******* NO BOOTSTRAP *******
     <h1>Welcome to Our Awesome Site!</h1>
     <h3>Subscribe to our List. Sign-up below!</h3>
 
@@ -34,6 +36,25 @@
                 <td><button type="submit">Submit Your Name</button></td>
             </tr>
         </table>
+    </form>
+    --> 
+    <nav class="navbar">
+        <a class="navbar-brand darkBG">Welcome to Our Awesome Site!</a>
+    </nav>
+    <form>
+        <div class="form-group">
+            <label for="firstNameInput">First Name</label>
+            <input type="subscriberInput" class="form-control" id="firstNameInput" placeholder="Enter your first name">
+        </div>
+        <div class="form-group">
+            <label for="lastNameInput">Last Name</label>
+            <input type="subscriberInput" class="form-control" id="lastNameInput" placeholder="Enter your last name">
+        </div>
+        <div class="form-group">
+            <label for="userNameInput">Username</label>
+            <input type="subscriberInput" class="form-control" id="userNameInput" placeholder="Enter your last name">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
 </body>
 
